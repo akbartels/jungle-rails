@@ -1,7 +1,9 @@
 class OrdersController < ApplicationController
 
   def show
+    id = params[:id]
     @order = Order.find(params[:id])
+    @purchased_items = @order.line_items
   end
 
   def create
@@ -18,6 +20,11 @@ class OrdersController < ApplicationController
   rescue Stripe::CardError => e
     redirect_to cart_path, flash: { error: e.message }
   end
+
+  def order_subtotal_cents
+    @purchased_items.map{|item| item.total_price_cents}.sum
+  end
+  helper_method :order_subtotal_cents
 
   private
 
