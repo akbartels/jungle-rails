@@ -42,9 +42,17 @@
             <li><%= link_to 'Categories',  [:admin, :categories] %></li>
           </ul>
         </li>
+        
         <li>
-          <%= link_to cart_path do %>
-            <%= fa_icon "shopping-cart" %> My Cart (<%= cart.size %>)
+        <%= link_to cart_path do %>
+          <%= fa_icon "shopping-cart" %> My Cart (<%= cart.size %>)
+          <% end %>
+        </li>  
+        <li style="display: flex">
+          <% if current_user %>
+            <p class="pipe">Signed in as <%= current_user.name %></p> <%= link_to "Logout", '/logout' %>
+          <% else %>
+            <%= link_to 'Login', '/login' %> <%= link_to 'Signup', '/signup' %>
           <% end %>
         </li>
       </ul>

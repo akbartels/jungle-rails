@@ -11,6 +11,13 @@ body {
   padding-top: 70px;
 }
 
+.pipe {
+  display: flex;
+  margin-bottom: 0px;
+  height: fit-content;
+  padding: 15px 0px;
+}
+
 // Bootstrap adjustments
 form.button_to {
   display: inline;
