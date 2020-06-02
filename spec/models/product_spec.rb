@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Product, type: :model do
   describe "Validations" do
-    context "when saving a new product" do
+    context "when saving a new Product" do
       it "returns valid when all required fields are entered" do
         product = Product.new
         product.name = "Sweater"
