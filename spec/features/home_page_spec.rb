@@ -13,7 +13,6 @@ RSpec.feature "Visitor navigates to home page", type: :feature, js: true do
         quantity: 10,
         price: 64.99
       )
-     
     end
 
     
