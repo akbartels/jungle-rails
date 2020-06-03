@@ -1,6 +1,13 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of learning Rails by example.
+
+Simulated working with legacy code by adding new features such as:
+- Sold Out badge when item has 0 quantity
+- Enhanced Order Details page, outlining User order
+- Addition of Admin login/password
+- Addition of Admin Categories
+- Enhanced Cart page when nothing is in cart
 
 
 ## Setup
