@@ -10,6 +10,14 @@ Simulated working with legacy code by adding new features such as:
 - Enhanced Cart page when nothing is in cart
 
 
+## Screenshots
+!["Products Page"](https://github.com/akbartels/jungle-rails/blob/master/public/screenshots/Screen%20Shot%202020-06-03%20at%202.45.09%20PM.png?raw=true)
+!["Purchase Order Details"](https://github.com/akbartels/jungle-rails/blob/master/public/screenshots/Screen%20Shot%202020-06-03%20at%202.44.39%20PM.png?raw=true)
+!["View/Create New Product(s) as Admin"](https://github.com/akbartels/jungle-rails/blob/master/public/screenshots/Screen%20Shot%202020-06-03%20at%202.45.29%20PM.png?raw=true)
+!["View/Create New Category(s) as Admin"](https://github.com/akbartels/jungle-rails/blob/master/public/screenshots/Screen%20Shot%202020-06-03%20at%202.45.45%20PM.png?raw=true)
+!["Cart With Items"](https://github.com/akbartels/jungle-rails/blob/master/public/screenshots/Screen%20Shot%202020-06-03%20at%202.46.15%20PM.png?raw=true)
+!["Sign Up"](https://github.com/akbartels/jungle-rails/blob/master/public/screenshots/Screen%20Shot%202020-06-03%20at%202.46.26%20PM.png?raw=true)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
